@@ -1,0 +1,14 @@
+.main-no-logged{
+    min-height: 100vh;
+    box-sizing: border-box;
+    width: 100%;
+    background: #111827;
+    backdrop-filter: blur(33px);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}

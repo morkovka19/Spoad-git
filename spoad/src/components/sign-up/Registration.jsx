@@ -1,5 +1,15 @@
+import MainNoLogged from "../main-no-loggged/MainNoLogged";
+import Form from "../form/Form";
+
+
 export default function Registration(){
     return (
-        <div>Registration</div>
+        <MainNoLogged element={
+            <>
+                <div>Registration</div>
+                <Form />
+            </>
+        }
+      />
     )
 }

@@ -6,14 +6,17 @@ import Login from '../sign-in/Login';
 import Registration from '../sign-up/Registration';
 import GitHub from '../github/Github';
 import { useState } from 'react';
+import Header from '../header/Header';
+import Footer from '../footer/Footer';
 
 function App() {
 
-  const [loggedIn, setLoggedIn] = useState(true);
+  const [loggedIn, setLoggedIn] = useState(false);
 
 
   return (
    <div className='page__container'>
+    <Header />
       <Routes>
         <Route path='/' element={
             <ProtectedRoute 
@@ -27,7 +30,7 @@ function App() {
       <Route path='/github' element={<GitHub />} />
 
     </ Routes>
-
+    <Footer />
   </div>
   );
 }
