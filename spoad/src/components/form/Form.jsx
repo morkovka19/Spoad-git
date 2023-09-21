@@ -1,9 +1,12 @@
-export default function Form({element, titleForm, buttonTitle}){
+import './form.css'
+
+export default function Form({element, titleForm, buttonTitle, linkElement=null}){
     return (
         <form className="form">
-            <h2 className="title__form">{titleForm}</h2>
+            <h2 className="form__title">{titleForm}</h2>
             {element}
             <button className="form__submit">{buttonTitle}</button>
+            {linkElement}
         </form>
     )
 }

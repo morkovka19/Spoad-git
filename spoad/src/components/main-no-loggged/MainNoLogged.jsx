@@ -3,6 +3,7 @@ import './main-no-logged.css';
 export default function MainNoLogged({ element }) {
     return (
         <main className='main-no-logged'>
+            <div className='main-no-logged__background main-no-logged__background_right'></div>
             <div className='main-no-logged__container'>
                 <div className='main-no-logged__block-info'>
                     <h1 className='main-no-logged__title'>Spoad</h1>
@@ -14,6 +15,7 @@ export default function MainNoLogged({ element }) {
                 </div>
                 {element}
             </div>
+            <div className='main-no-logged__background main-no-logged__background_left'></div>
         </main>
     )
 }

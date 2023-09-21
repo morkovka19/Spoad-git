@@ -1,0 +1,21 @@
+.main-no-logged__background{
+    position: absolute;
+    background-color: aliceblue;
+    height: 700px;
+    width: 700px;
+    border-radius: 361px;
+    background: rgba(29, 78, 216, 0.3);
+    filter: blur(200px);
+    z-index: -1;
+}
+
+.main-no-logged__background_right{
+    top: 0%;
+    right: 80%;
+}
+
+.main-no-logged__background_left{
+    top: 70%;
+    right: 10%;
+    height: 200px;
+}

@@ -1,0 +1,16 @@
+.form__submit{
+    border-radius: 70px;
+    opacity: 0.9;
+    background: var(--Gardient, linear-gradient(90deg, #2563EB 0.36%, #D946EF 201.02%));
+    color: #FFF;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px; /* 150% */
+    width: 210px;
+    height: 60px;
+    margin: 30px 0;
+    margin-bottom: 10px;
+}
