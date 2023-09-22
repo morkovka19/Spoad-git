@@ -1,0 +1,20 @@
+.navbar__button{
+    border-radius: 5px;
+    background: var(--Gardient, linear-gradient(90deg, #2563EB 0.36%, #D946EF 201.02%));
+    height: 100%;
+    width: 130px;
+    color: #F9FAFB;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0;
+    padding: 5px;
+    transition: transform linear .3s;
+    border: none;
+}
+
+.navbar__button:hover{
+    transform: scale(1.1);
+}

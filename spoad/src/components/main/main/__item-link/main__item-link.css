@@ -1,0 +1,11 @@
+.main__item-link{
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+    margin: 0 auto;
+    padding: 0;/* 162.5% */
+    text-decoration: none;
+}

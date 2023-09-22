@@ -1,3 +1,7 @@
 .footer{
     display: none;
 }
+
+.footer_visible{
+    display: flex;
+}

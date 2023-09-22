@@ -3,7 +3,7 @@ import Form from "../form/Form";
 import {Link} from 'react-router-dom'
 
 
-export default function Login(){
+export default function Login({onLogin}){
     return (
         <MainNoLogged element={
             <>
@@ -16,6 +16,7 @@ export default function Login(){
                 linkElement={
                     <span className="form__span">Don't have an account?<Link to='/sign-up' className="form__link">  Sign up &rarr;</Link></span>
                 }
+                onClick={onLogin}
                 />
             </>
         }

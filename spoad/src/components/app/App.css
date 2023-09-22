@@ -7,4 +7,15 @@
   width: 100%;
   font-family: 'DM Sans', Arial, Helvetica, sans-serif;
   box-sizing: border-box;
+  background: #111827;
+  backdrop-filter: blur(33px);
+  color: white;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
+
+

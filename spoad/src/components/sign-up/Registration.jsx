@@ -11,6 +11,7 @@ export default function Registration(){
                     <fieldset className="form__fieldset">
                         <input className="form__input" placeholder="login"/>
                         <input className="form__input" placeholder="password"/>
+                        <input className="form__input" placeholder="repeat password"/>
                     </fieldset>
                 }
                 linkElement={
