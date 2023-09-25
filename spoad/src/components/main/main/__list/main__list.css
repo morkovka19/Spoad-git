@@ -4,4 +4,5 @@
     gap: 20px;
     flex-wrap: wrap;
     grid-template-columns: repeat(3, 1fr);
+    place-items: center;
 }
